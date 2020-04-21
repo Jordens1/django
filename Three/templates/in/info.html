@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+</head>
+<body>
+<h1>name</h1>
+{% for name in stuall %}
+{#    <li>list{{ forloop.counter }} : {{ name.s_name }}</li>#}
+{#    {% empty %}#}
+{#    <h1>没了</h1>#}
+    {% if forloop.first %}
+        <li style="color: rebeccapurple">{{ name.s_name }}</li>
+        <elif>
+            <li style="color: orange">{{ name.s_name }}</li>
+        </elif>
+    {% endif %}
+    <else>
+        <li style="color: #83ff30">{{ name.s_name }}</li>
+    </else>
+{% endfor %}
+
+{% comment %}
+这里的是注释，看不到我把
+{% endcomment %}
+
+<hr>
+<h4>count :{{ count }}</h4>
+<h4>count * 0.9 :{% widthratio count 10 9  %}</h4>
+
+    <li>{{ stu_dir.class }}</li>
+<hr>
+    {% for foo in stuall %}
+        这个是对它2整除
+        {% if foo.pk | divisibleby:2 %}
+            <li style="color: antiquewhite;">
+                {{ foo.s_name }}
+            </li>
+        {% endif %}
+    {% endfor %}
+
+</body>
+</html>

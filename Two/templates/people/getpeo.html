@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人名</title>
+</head>
+<body>
+<p1>start</p1>
+    <h1>Person list</h1>
+    <u1>
+        {% for person2 in person %}
+            <li>{{ person2.p_name }}: {{ person2.p_age }}: {{ person2.p_sex }}</li>
+        {% endfor %}
+    </u1>
+<p2>over</p2>
+</body>
+</html>

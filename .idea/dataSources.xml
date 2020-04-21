@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="db" uuid="1797d23b-2192-4c91-acef-3884f73646ce">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Darnell\PycharmProjects\django\db.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="xishi-1" uuid="fa5e7889-a647-4517-90b3-f0af29a3a654">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>第一个虚拟机</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.115.132:3306/GP1Django</jdbc-url>
+    </data-source>
+  </component>
+</project>

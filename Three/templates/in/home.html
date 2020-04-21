@@ -1,0 +1,13 @@
+<u1>继承</u1>
+{% extends 'in/base.html' %}
+
+{% block header %}
+    <li>这是头，我是home，填充</li>
+{% endblock %}
+
+{% block banner %}
+    <h2>这里是banner,填充</h2>
+{% endblock %}
+
+
+<a href="{% url 'sec1:sec' %}">here we go </a>
